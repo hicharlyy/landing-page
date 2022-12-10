@@ -16,21 +16,20 @@ body {
 }
 
 .header {
-  list-style-type: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  list-style-type: none;
 }
 
-.header-links {
-  list-style-type: none;
+/* .header-links {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   
-}
+  
+} */
 
 .header,
 .footer {
   display: flex;
-  justify-content: space-between;
 }
 
