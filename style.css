@@ -9,6 +9,11 @@ body {
   flex-direction: column;
 } */
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+
 .header,
 .footer,
 .main {
@@ -17,19 +22,19 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   list-style-type: none;
+  
 }
 
-/* .header-links {
-  display: flex;
-  flex-direction: row;
-  
-  
+/* .logo {
+margin-right: auto;
+align-self: flex-start;
 } */
 
-.header,
-.footer {
-  display: flex;
-}
+/* .header-links {
+  margin-left: auto;
+}  */
+
 
