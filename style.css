@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 } */
 
-body{
+.body {
   display: flex;
   flex-direction: column;
 }
@@ -22,19 +22,34 @@ body{
 
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  list-style-type: none;
-  
 }
 
-/* .logo {
-margin-right: auto;
-align-self: flex-start;
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-right: auto; */
+  border: 1px solid red;
+
+}
+
+.header-links {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  border: 1px solid white;
+  /* margin-left: auto; */
+} 
+/* .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
 } */
 
-/* .header-links {
-  margin-left: auto;
-}  */
+
+
 
 
